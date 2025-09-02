@@ -7,24 +7,26 @@
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <header>
-    <button id="updateLogBtn">Update log</button>
-    <h1>wMessage</h1>
-    <button id="adminRoomBtn">ADMIN ROOM</button>
+  <header class="top-bar">
+    <button class="top-btn">Update log</button>
+    <h1 class="app-title">wMessage</h1>
+    <button class="top-btn">ADMIN ROOM</button>
   </header>
 
   <main id="chatWindow">
-    <!-- Messages will be injected here -->
+    <!-- Messages injected here -->
   </main>
 
   <div id="typingIndicator">NitroGames101 is typing...</div>
 
-  <footer>
-    <input type="text" id="messageInput" placeholder="Type your message here..."/>
+  <footer class="input-bar">
+    <input type="text" id="messageInput" placeholder="Type your message here..." />
     <button id="sendBtn">Send</button>
   </footer>
 
-  <div id="loginStatus">Login Status: Logged in as <span id="currentUser">WyattDaMemer</span></div>
+  <div id="loginStatus">
+    Login Status: Logged in as <span id="currentUser">WyattDaMemer</span>
+  </div>
 
   <script src="app.js"></script>
 </body>

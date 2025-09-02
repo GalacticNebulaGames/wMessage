@@ -1,14 +1,9 @@
-// Simulated current user
-const currentUser = {
-  name: "WyattDaMemer",
-  role: "admin" // or "user"
-};
+const currentUser = { name: "WyattDaMemer", role: "admin" };
 
-// Example messages
 let messages = [
   { user: "WyattDaMemer", role: "admin", time: "1:08 PM", text: "Wow! This is amazing!" },
   { user: "NitroGames101", role: "admin", time: "1:08 PM", text: "yeah lol" },
-  { user: "WyattDaMemer", role: "admin", time: "1:09 PM", text: "You can even add images!", image: "example.jpg" }
+  { user: "WyattDaMemer", role: "admin", time: "1:09 PM", text: "You can even add images!", image: "car-meme.jpg" }
 ];
 
 const chatWindow = document.getElementById("chatWindow");
@@ -22,6 +17,8 @@ function renderMessages() {
     msgDiv.classList.add("message");
 
     const header = document.createElement("div");
+    header.classList.add("message-header");
+
     const usernameSpan = document.createElement("span");
     usernameSpan.classList.add("username");
     usernameSpan.textContent = msg.user;
