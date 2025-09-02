@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>wMessage</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <button id="updateLogBtn">Update log</button>
+    <h1>wMessage</h1>
+    <button id="adminRoomBtn">ADMIN ROOM</button>
+  </header>
+
+  <main id="chatWindow">
+    <!-- Messages will be injected here -->
+  </main>
+
+  <div id="typingIndicator">NitroGames101 is typing...</div>
+
+  <footer>
+    <input type="text" id="messageInput" placeholder="Type your message here..."/>
+    <button id="sendBtn">Send</button>
+  </footer>
+
+  <div id="loginStatus">Login Status: Logged in as <span id="currentUser">WyattDaMemer</span></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
