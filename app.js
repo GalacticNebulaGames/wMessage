@@ -1,9 +1,9 @@
-const currentUser = { name: "WyattDaMemer", role: "admin" };
+const currentUser = { name: "Way2withMemer", role: "admin" };
 
 let messages = [
-  { user: "WyattDaMemer", role: "admin", time: "1:08 PM", text: "Wow! This is amazing!" },
-  { user: "NitroGames101", role: "admin", time: "1:08 PM", text: "yeah lol" },
-  { user: "WyattDaMemer", role: "admin", time: "1:09 PM", text: "You can even add images!", image: "car-meme.jpg" }
+  { user: "Way2withMemer", role: "admin", time: "10:18 PM", text: "Wow! This is amazing!" },
+  { user: "NitroGames101", role: "admin", time: "10:18 PM", text: "yeah lol" },
+  { user: "Way2withMemer", role: "admin", time: "10:18 PM", text: "You can even add images!", image: "car-meme.jpg" }
 ];
 
 const chatWindow = document.getElementById("chatWindow");
